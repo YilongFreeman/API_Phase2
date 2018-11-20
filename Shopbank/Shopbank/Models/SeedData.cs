@@ -29,6 +29,7 @@ namespace Shopbank.Models
                         Tags = "spongebob",
                         Uploaded = "07-10-18 4:20T18:25:43.511Z",
                         Price = "12$",
+                        AccessCode = "J7890",
                         Width = "768",
                         Height = "432"
                     }

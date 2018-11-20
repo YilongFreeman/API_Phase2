@@ -17,6 +17,7 @@ namespace Shopbank.Migrations
                     Url = table.Column<string>(nullable: true),
                     Tags = table.Column<string>(nullable: true),
                     Uploaded = table.Column<string>(nullable: true),
+                    AccessCode = table.Column<string>(nullable: true),
                     Price = table.Column<string>(nullable: true),
                     Width = table.Column<string>(nullable: true),
                     Height = table.Column<string>(nullable: true)
