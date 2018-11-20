@@ -9,6 +9,7 @@ namespace Shopbank.Models
     public class ShopImageItem
     {
         public string Title { get; set; }
+        public string Description { get; set; }
         public string Tags { get; set; }
         public IFormFile Image { get; set; }
     }

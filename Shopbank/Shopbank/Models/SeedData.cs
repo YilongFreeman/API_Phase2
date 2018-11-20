@@ -24,6 +24,7 @@ namespace Shopbank.Models
                     new ShopItem
                     {
                         Title = "Is Mayo an Instrument?",
+                        Description = "This is a lovely meme picture",
                         Url = "https://i.kym-cdn.com/photos/images/original/001/371/723/be6.jpg",
                         Tags = "spongebob",
                         Uploaded = "07-10-18 4:20T18:25:43.511Z",

@@ -8,7 +8,7 @@ using Shopbank.Models;
 namespace Shopbank.Migrations
 {
     [DbContext(typeof(ShopbankContext))]
-    [Migration("20181119104853_InitialCreate")]
+    [Migration("20181120034059_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,6 +21,8 @@ namespace Shopbank.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Description");
 
                     b.Property<string>("Height");
 

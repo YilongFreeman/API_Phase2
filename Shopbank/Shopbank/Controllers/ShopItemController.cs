@@ -161,6 +161,7 @@ namespace Shopbank.Controllers
 
                     ShopItem shopItem = new ShopItem();
                     shopItem.Title = shop.Title;
+                    shopItem.Description = shop.Description;
                     shopItem.Tags = shop.Tags;
 
                     System.Drawing.Image image = System.Drawing.Image.FromStream(stream);

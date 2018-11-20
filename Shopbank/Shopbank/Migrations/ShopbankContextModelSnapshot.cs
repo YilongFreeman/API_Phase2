@@ -20,6 +20,8 @@ namespace Shopbank.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("Description");
+
                     b.Property<string>("Height");
 
                     b.Property<string>("Price");

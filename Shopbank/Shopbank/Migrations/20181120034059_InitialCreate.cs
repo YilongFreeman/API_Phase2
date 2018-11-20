@@ -13,6 +13,7 @@ namespace Shopbank.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Title = table.Column<string>(nullable: true),
+                    Description = table.Column<string>(nullable: true),
                     Url = table.Column<string>(nullable: true),
                     Tags = table.Column<string>(nullable: true),
                     Uploaded = table.Column<string>(nullable: true),
