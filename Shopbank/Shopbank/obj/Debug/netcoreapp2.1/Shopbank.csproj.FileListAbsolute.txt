@@ -1,0 +1,14 @@
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\bin\Debug\netcoreapp2.1\Shopbank.deps.json
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\bin\Debug\netcoreapp2.1\Shopbank.runtimeconfig.json
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\bin\Debug\netcoreapp2.1\Shopbank.runtimeconfig.dev.json
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\bin\Debug\netcoreapp2.1\Shopbank.dll
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\bin\Debug\netcoreapp2.1\Shopbank.pdb
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\obj\Debug\netcoreapp2.1\Shopbank.csprojAssemblyReference.cache
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\obj\Debug\netcoreapp2.1\Shopbank.csproj.CoreCompileInputs.cache
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\obj\Debug\netcoreapp2.1\Shopbank.RazorAssemblyInfo.cache
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\obj\Debug\netcoreapp2.1\Shopbank.RazorAssemblyInfo.cs
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\obj\Debug\netcoreapp2.1\Shopbank.AssemblyInfoInputs.cache
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\obj\Debug\netcoreapp2.1\Shopbank.AssemblyInfo.cs
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\obj\Debug\netcoreapp2.1\Shopbank.RazorTargetAssemblyInfo.cache
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\obj\Debug\netcoreapp2.1\Shopbank.dll
+C:\Users\Yilong\Desktop\API_Phase2\Shopbank\Shopbank\obj\Debug\netcoreapp2.1\Shopbank.pdb
