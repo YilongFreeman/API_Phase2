@@ -129,17 +129,25 @@ namespace Shopbank.Controllers
             return _context.ShopItem.Any(e => e.Id == id);
         }
         // GET: api/Meme/Tags
-        [Route("tags")]
-        [HttpGet]
-        public async Task<List<string>> GetTags()
-        {
-            var shops = (from m in _context.ShopItem
-                         select m.Tags).Distinct();
 
-            var returned = await shops.ToListAsync();
+        [HttpGet]
+        [Route("tag")]
+        public async Task<List<ShopItem>> GetTagsItem([FromQuery] string tags)
+        {
+            var shops = from m in _context.ShopItem
+                        select m; //get all the shops
+
+
+            if (!String.IsNullOrEmpty(tags)) //make sure user gave a tag to search
+            {
+                shops= shops.Where(s => s.Tags.ToLower().Equals(tags.ToLower())); // find the entries with the search tag and reassign
+            }
+
+            var returned = await shops.ToListAsync(); //return the memes
 
             return returned;
         }
+
         [HttpPost, Route("upload")]
         public async Task<IActionResult> UploadFile([FromForm]ShopImageItem shop)
         {
